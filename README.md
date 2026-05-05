@@ -1,6 +1,18 @@
 # IoT-based-Food-Quality-Monitoring
 
-This project presents a scalable and intelligent Food Quality Monitoring System that leverages Internet of Things (IoT) and data-driven techniques to assess food freshness and detect contamination in real time. By integrating multiple gas, environmental, and chemical sensors, the system continuously monitors key indicators of spoilage and quality degradation.
+An IoT-based Food Quality Monitoring System that uses gas sensors, environmental sensors, and pH analysis to detect food spoilage in real time, with support for AI-based prediction.
 
-The proposed framework enables early detection of food spoilage, enhances safety standards, and supports data-driven decision-making in modern food management systems.
+Key Features
+Real-time monitoring
+Gas-based spoilage detection
+pH and environmental analysis
+Cloud integration
+AI-based prediction (ongoing)
 
+System Overview
+Sensors: MQ135, MQ136, MQ137, DHT22, pH
+Microcontroller: ESP32 
+Cloud: ThingSpeak 
+
+How It Works
+Sensors → ESP32 → Cloud → Analysis → Alert
