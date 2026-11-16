@@ -10,7 +10,7 @@ An IoT-based Food Quality Monitoring System that uses gas sensors, environmental
 - AI-based prediction (ongoing) <br>
 
 # System Overview <br>
-Sensors: MQ135, MQ136, MQ137, DHT22, pH <br>
+Sensors: 
 Microcontroller: ESP32  <br>
 Cloud: ThingSpeak <br>
 
